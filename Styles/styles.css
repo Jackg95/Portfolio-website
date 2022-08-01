@@ -1,7 +1,7 @@
 html {
   background-color: #659bdb;
   color: white;
-  font-family: Helvetica;
+  font-family: "Playfair display";
   text-align: center;
 }
 h2 {
@@ -23,6 +23,7 @@ p {
 
 .title {
   font-size: 32px;
+  margin-bottom: 90px;
 }
 
 .info {
