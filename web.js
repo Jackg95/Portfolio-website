@@ -21,3 +21,13 @@ function click(event) {
 
 circleclick.onmousedown = click;
 circleclick.onmouseup = click;
+
+let showMore = document.getElementById("show");
+let hidden = document.getElementById("hide");
+
+function show(event) {
+  hidden.style.display = "inline";
+  event.target.style.display = "none";
+}
+
+showMore.onclick = show;
